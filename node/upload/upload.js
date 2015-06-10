@@ -31,7 +31,7 @@ var args = process.argv.slice(2);
 var MEDIASILO_API_URL       = 'https://p-api-new.mediasilo.com/v3/';
 
 /**
- * mediaSiloHostname This is the subdaomin that 
+ * mediaSiloHostname This is the subdomain that 
  * you log into mediasilo with. For example, 
  * YOURCOMPANY.mediasilo.com, would use YOURCOMPANY 
  * as the hostname here.
@@ -65,11 +65,6 @@ var mediaSiloProjectId = args[3];
 
 
 
-
-
-
-
-
 /**
  * getMediaSiloRequestOptions Gets HTTP request options for making requests to the MediaSilo REST API
  * @method getMediaSiloRequestOptions
@@ -90,11 +85,6 @@ function getMediaSiloRequestOptions(resourcePath, httpMethod) {
     }
   };  
 }
-
-
-
-
-
 
 
 
@@ -149,11 +139,6 @@ function getUploadTicket(filePath) {
 
   return deferred.promise;   
 }
-
-
-
-
-
 
 
 
@@ -218,11 +203,6 @@ function uploadFile(uploadOptions) {
 
   return deferred.promise;  
 }
-
-
-
-
-
 
 
 
