@@ -1,5 +1,7 @@
-Install dependencies
+Install dependencies:
+
 ```npm install```
 
-Upload a file
+Upload a file:
+
 ```node upload <HOSTNAME> <USERNAME> <PASSWORD> <PROJECT ID> <FILE PATH>```
