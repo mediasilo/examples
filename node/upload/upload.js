@@ -252,24 +252,3 @@ getUploadTicket(args[4]).then(uploadFile).then(function(uploadFileResult) {
 }).fail(function(e) {
     console.log(e, e.stack); 
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
