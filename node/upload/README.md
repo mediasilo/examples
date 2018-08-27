@@ -1,3 +1,5 @@
+#### This is meant for example purposes and should not be used in production as is.
+
 #### Installation
 ```
 git clone https://github.com/mediasilo/examples.git
